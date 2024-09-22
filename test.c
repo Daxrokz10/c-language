@@ -12,9 +12,17 @@ int main(){
     // printf("%d",sum);
     // return 0;
 
-    char str [] = "Daksh";
-    printf("String normal is: %s \n",str);
-    printf("String reversed is: %s",strrev(str));
+    // char str [] = "Daksh";
+    // printf("String normal is: %s \n",str);
+    // printf("String reversed is: %s",strrev(str));
 
-    return 0;
+    // return 0;
+
+    int i,n;
+    printf("give a number");
+    scanf("%d",&n);
+    for(i=0;i<n;i++){
+        printf("among us\n");
+    }
+    return 0;    
 }
