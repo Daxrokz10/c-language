@@ -18,11 +18,36 @@ int main(){
 
     // return 0;
 
-    int i,n;
-    printf("give a number");
-    scanf("%d",&n);
-    for(i=0;i<n;i++){
-        printf("among us\n");
-    }
-    return 0;    
+    // int i,n;
+    // printf("give a number: ");
+    // scanf("%d",&n);
+    // for(i=0;i<n;i++){
+    //     printf("hello world\n");
+    // }
+    // return 0;
+
+
+    // int length;
+    // char name[15];
+    // printf("Enter your name : ");
+    // scanf("%s", name);
+    // length = strlen(name);
+    // printf("Length of your name is %d \n", length);
+
+    // return 0;    
+    
+    char name[20];
+    char fname[10] , lname[10];
+    printf("Enter fname :");
+    scanf("%s",fname);
+    printf("Enter lname :");
+    scanf("%s",lname);
+    strcpy(name,fname);
+    strcat(name,lname);
+    sprintf(name, "%s %s", fname , lname);
+    printf("Your name is %s\n",name);
+    // name = strcat(fname,lname);
+    // printf("Your name is %s" name);
+
+    return 0;
 }
