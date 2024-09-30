@@ -46,8 +46,7 @@ int main(){
     strcat(name,lname);
     sprintf(name, "%s %s", fname , lname);
     printf("Your name is %s\n",name);
-    // name = strcat(fname,lname);
-    // printf("Your name is %s" name);
+
 
     return 0;
 }
