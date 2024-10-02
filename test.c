@@ -34,7 +34,7 @@ int main(){
     // length = strlen(name);
     // printf("Length of your name is %d \n", length);
 
-    // return 0;    
+    // return 0;    0
     
     char name[20];
     char fname[10] , lname[10];
@@ -46,7 +46,6 @@ int main(){
     strcat(name,lname);
     sprintf(name, "%s %s", fname , lname);
     printf("Your name is %s\n",name);
-
 
     return 0;
 }
