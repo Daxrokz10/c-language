@@ -36,16 +36,27 @@ int main(){
 
     // return 0;    0
     
-    char name[20];
-    char fname[10] , lname[10];
-    printf("Enter fname :");
-    scanf("%s",fname);
-    printf("Enter lname :");
-    scanf("%s",lname);
-    strcpy(name,fname);
-    strcat(name,lname);
-    sprintf(name, "%s %s", fname , lname);
-    printf("Your name is %s\n",name);
+    // char name[20];
+    // char fname[10] , lname[10];
+    // printf("Enter fname :");
+    // scanf("%s",fname);
+    // printf("Enter lname :");
+    // scanf("%s",lname);
+    // strcpy(name,fname);
+    // strcat(name,lname);
+    // sprintf(name, "%s %s", fname , lname);
+    // printf("Your name is %s\n",name);
 
-    return 0;
+    // return 0;
+
+    printf("Program to get sqaure of the sum of two numbers\n");
+
+    int x , y , sqr;
+    printf("Give value for no.1: ");
+    scanf("%d",&x);
+    printf("Give value for no.2: ");
+    scanf("%d",&y);
+
+    sqr= (x+y)*(x+y);
+    printf("Square of sum of two numbers is %d",sqr);
 }
