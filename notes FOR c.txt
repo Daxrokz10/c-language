@@ -1,7 +1,0 @@
-LEC 1 NOTES 
-
-stdio.h stands for standard input output
-conio.h stands for console input output  
-
-C always runs preprocesser first (#) used for importing libraries
-
