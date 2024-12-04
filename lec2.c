@@ -20,7 +20,7 @@ int main(){
     printf("Your age is: %s\n",age);
     printf("Your school name is: %s\n\n",school);
    
-    //  Q2
+    // // // Q2
 
     printf("Start of Program 2\n\n");
 
@@ -42,7 +42,7 @@ int main(){
         }
     }
 
-    // Q3
+    // // Q3
 
     printf("Start of Program 3\n\n");
 
