@@ -12,13 +12,13 @@ int main() {
         printf("Enter degree Celsius: ");
         scanf("%f", &c);
         output = (c * 9 / 5) + 32;
-        printf("%f degree Celsius is %f Fahrenheit\n", c, output);
+        printf("%.2f degree Celsius is %.2f Fahrenheit\n", c, output);
     } 
     else if (decider == 0) {
         printf("Enter degree Fahrenheit: ");
         scanf("%f", &f);
         output = (f - 32) * 5 / 9;
-        printf("%f degree Fahrenheit is %f Celsius\n", f, output);
+        printf("%.2f degree Fahrenheit is %.2f Celsius\n", f, output);
     } 
     else {
         printf("Invalid input. Please enter '1' or '0'.\n");
