@@ -37,7 +37,7 @@ int main(){
         break;
         case 7:
         printf("You failed");
-        break;
+        break; 
         default:
         printf("N/A");
         break;
