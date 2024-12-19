@@ -8,32 +8,32 @@ int main(){
 
     printf("With for loop");
 
-    for(i=1;i<=num;i++){
+    for(i=num;i >= 1;i--){
         if(i%2!=0){
-            printf("%d\n",i);
+            printf(" %d ",i);
         }
     }
 
     printf("\n\n");
     printf("With while loop");
 
-    i = 1;
+    i = num;
 
-    while(i <= num){
+    while(i >= 1){
         if(i%2!=0){
-            printf("%d\n",i);
+            printf(" %d ",i);
         }
-        i++;
+        i--;
     }
     printf("\n\n");
     printf("With do-while loop");
 
-    i = 1;
+    i = num;
 
     do{
         if(i%2!=0){
-            printf("%d\n",i);
+            printf(" %d ",i);
         }
-        i++;
-    }while(i <= num);
+        i--;
+    }while(i >= 1);
 }
