@@ -3,6 +3,6 @@
 
 int main(){
     for(int i=10 , j=1;i>=8;i--,j++){
-        printf("%d,%d,%d ",i,i-5,i-(i-j));
+        printf("%d,%d,%d,",i,i-5,i-(i-j));
     }
 }
