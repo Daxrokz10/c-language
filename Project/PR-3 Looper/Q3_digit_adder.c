@@ -16,7 +16,7 @@ int main() {
 
     for (int i = 0; i < strlen(num); i++) {  //use strlen to find length of number
         if (i == strlen(num) - 1) {//when the number of the string is last store that value in last digit
-            last_digit = num[i] - '0'; 
+            last_digit = num[i];    
         }
     }
 
