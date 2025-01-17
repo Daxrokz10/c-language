@@ -1,63 +1,19 @@
-#include<stdio.h>
-#include<string.h>
+#include <stdio.h>
+#include <string.h>
+
 int main(){
-    // int num1,num2,sum;
-    // printf("enter num1:");
-    // scanf("%d",&num1);
+    char str[100];
+    char str2[100];
 
-    // printf("enter num2:");
-    // scanf("%d",&num2);
+    printf("Enter the string:- ");
+    gets(str);
 
-    // sum = num1+ num2;
-    // printf("%d",sum);
-    // return 0;
+    int len = strlen(str);
+    int j = len-1;
+    for(int i=0; i<=len; i++,j--){
+        str2[i] = str[j];
+    }
+    printf("The reversed string is %s\n",str2);
 
-    // char str [] = "Daksh";
-    // printf("String normal is: %s \n",str);
-    // printf("String reversed is: %s",strrev(str));
-
-    // return 0;
-
-    // int i,n;
-    // printf("give a number: ");
-    // scanf("%d",&n);
-    // for(i=0;i<n;i++){
-    //     printf("hello world\n");
-    // }
-    // return 0;
-
-
-    // int length;
-    // char name[15];
-    // printf("Enter your name : ");
-    // scanf("%s", name);
-    // length = strlen(name);
-    // printf("Length of your name is %d \n", length);
-
-    // return 0;    0
-    
-    // char name[20];
-    // char fname[10] , lname[10];
-    // printf("Enter fname :");
-    // scanf("%s",fname);
-    // printf("Enter lname :");
-    // scanf("%s",lname);
-    // strcpy(name,fname);
-    // strcat(name,lname);
-    // sprintf(name, "%s %s", fname , lname);
-    // printf("Your name is %s\n",name);
-
-    // return 0;
-
-    // printf("Program to get sqaure of the sum of two numbers\n");
-
-    // int x , y , sqr;
-    // printf("Give value for no.1: ");
-    // scanf("%d",&x);
-    // printf("Give value for no.2: ");
-    // scanf("%d",&y);
-
-    // sqr= (x+y)*(x+y);
-    // printf("Square of sum of two numbers is %d",sqr);
-    
+    return 0;
 }
